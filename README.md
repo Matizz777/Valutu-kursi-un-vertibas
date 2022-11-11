@@ -29,6 +29,8 @@ Enter password: parole
 ```
 Pēc tā, lietotājs atrastos precīzi savstarpējā datubāzē valutaKurss, pēc tā datubāze ir jāuzbūvē -
 ```
+use valutaKurss;
+
 CREATE TABLE channel (
   id int(200) NOT NULL AUTO_INCREMENT,
   title varchar(200) COLLATE utf8_unicode_ci NOT NULL,
